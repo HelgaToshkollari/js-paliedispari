@@ -15,8 +15,9 @@ function parolaReverse (parola) {
     
     if (parola === reverse){
         return true;
+    } else {
+        return false;
     }
-    return false;
 }
 
 console.log("La parola è palindroma?", parolaReverse(parola));
